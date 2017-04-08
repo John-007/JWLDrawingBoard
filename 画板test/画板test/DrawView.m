@@ -7,7 +7,7 @@
 //
 
 #import "DrawView.h"
-#import "HMBezierPath.h"
+#import "JWLBezierPath.h"
 
 @interface DrawView ()
 
@@ -23,7 +23,7 @@
 - (void)drawRect:(CGRect)rect {
     // Drawing code
     //渲染数组内的所有路径
-    for (HMBezierPath *path in _paths) {
+    for (JWLBezierPath *path in _paths) {
         
         [path.lineColorX set] ;
         [path stroke] ;
@@ -47,7 +47,7 @@
     // 获取手指的位置
     CGPoint p = [t locationInView:t.view] ;
     // 创建路径
-    HMBezierPath *path = [HMBezierPath bezierPath] ;
+    JWLBezierPath *path = [JWLBezierPath bezierPath] ;
 
     // 设置样式
     [path setLineColorX:self.lineColor] ;

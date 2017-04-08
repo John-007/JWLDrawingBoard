@@ -16,7 +16,7 @@
 		5275B0ED1D36542D005C918A /* __testTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5275B0EC1D36542D005C918A /* __testTests.m */; };
 		5275B0F81D36542D005C918A /* __testUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5275B0F71D36542D005C918A /* __testUITests.m */; };
 		5275B10A1D365ABC005C918A /* DrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5275B1091D365ABC005C918A /* DrawView.m */; };
-		5275B10D1D3664A3005C918A /* HMBezierPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 5275B10C1D3664A3005C918A /* HMBezierPath.m */; };
+		B9B98DC31E988AB3000CC0B1 /* JWLBezierPath.m in Sources */ = {isa = PBXBuildFile; fileRef = B9B98DC21E988AB3000CC0B1 /* JWLBezierPath.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,8 +55,8 @@
 		5275B0F91D36542D005C918A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5275B1081D365ABC005C918A /* DrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawView.h; sourceTree = "<group>"; };
 		5275B1091D365ABC005C918A /* DrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawView.m; sourceTree = "<group>"; };
-		5275B10B1D3664A3005C918A /* HMBezierPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMBezierPath.h; sourceTree = "<group>"; };
-		5275B10C1D3664A3005C918A /* HMBezierPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMBezierPath.m; sourceTree = "<group>"; };
+		B9B98DC11E988AB3000CC0B1 /* JWLBezierPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWLBezierPath.h; sourceTree = "<group>"; };
+		B9B98DC21E988AB3000CC0B1 /* JWLBezierPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWLBezierPath.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,8 +126,8 @@
 				5275B0D31D36542D005C918A /* main.m */,
 				5275B1081D365ABC005C918A /* DrawView.h */,
 				5275B1091D365ABC005C918A /* DrawView.m */,
-				5275B10B1D3664A3005C918A /* HMBezierPath.h */,
-				5275B10C1D3664A3005C918A /* HMBezierPath.m */,
+				B9B98DC11E988AB3000CC0B1 /* JWLBezierPath.h */,
+				B9B98DC21E988AB3000CC0B1 /* JWLBezierPath.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -282,9 +282,9 @@
 			files = (
 				5275B0DA1D36542D005C918A /* ViewController.m in Sources */,
 				5275B0D71D36542D005C918A /* AppDelegate.m in Sources */,
-				5275B10D1D3664A3005C918A /* HMBezierPath.m in Sources */,
 				5275B10A1D365ABC005C918A /* DrawView.m in Sources */,
 				5275B0D41D36542D005C918A /* main.m in Sources */,
+				B9B98DC31E988AB3000CC0B1 /* JWLBezierPath.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -426,6 +426,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "画板test/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-66.--test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -437,6 +438,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "画板test/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-66.--test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -508,6 +510,7 @@
 				5275B0FE1D36542D005C918A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5275B0FF1D36542D005C918A /* Build configuration list for PBXNativeTarget "画板testTests" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +519,7 @@
 				5275B1011D36542D005C918A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5275B1021D36542D005C918A /* Build configuration list for PBXNativeTarget "画板testUITests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +528,7 @@
 				5275B1041D36542D005C918A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
