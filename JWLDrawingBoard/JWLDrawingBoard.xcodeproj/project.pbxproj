@@ -13,8 +13,6 @@
 		5275B0DD1D36542D005C918A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5275B0DB1D36542D005C918A /* Main.storyboard */; };
 		5275B0DF1D36542D005C918A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5275B0DE1D36542D005C918A /* Assets.xcassets */; };
 		5275B0E21D36542D005C918A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5275B0E01D36542D005C918A /* LaunchScreen.storyboard */; };
-		5275B0ED1D36542D005C918A /* __testTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5275B0EC1D36542D005C918A /* __testTests.m */; };
-		5275B0F81D36542D005C918A /* __testUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5275B0F71D36542D005C918A /* __testUITests.m */; };
 		5275B10A1D365ABC005C918A /* DrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5275B1091D365ABC005C918A /* DrawView.m */; };
 		B9B98DC31E988AB3000CC0B1 /* JWLBezierPath.m in Sources */ = {isa = PBXBuildFile; fileRef = B9B98DC21E988AB3000CC0B1 /* JWLBezierPath.m */; };
 /* End PBXBuildFile section */
@@ -37,7 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5275B0CF1D36542D005C918A /* 画板test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "画板test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5275B0CF1D36542D005C918A /* JWLDrawingBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JWLDrawingBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5275B0D31D36542D005C918A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5275B0D51D36542D005C918A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5275B0D61D36542D005C918A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -47,12 +45,8 @@
 		5275B0DE1D36542D005C918A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5275B0E11D36542D005C918A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5275B0E31D36542D005C918A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5275B0E81D36542D005C918A /* 画板testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "画板testTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5275B0EC1D36542D005C918A /* __testTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = __testTests.m; sourceTree = "<group>"; };
-		5275B0EE1D36542D005C918A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5275B0F31D36542D005C918A /* 画板testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "画板testUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5275B0F71D36542D005C918A /* __testUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = __testUITests.m; sourceTree = "<group>"; };
-		5275B0F91D36542D005C918A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5275B0E81D36542D005C918A /* JWLDrawingBoardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JWLDrawingBoardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5275B0F31D36542D005C918A /* JWLDrawingBoardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JWLDrawingBoardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5275B1081D365ABC005C918A /* DrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawView.h; sourceTree = "<group>"; };
 		5275B1091D365ABC005C918A /* DrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawView.m; sourceTree = "<group>"; };
 		B9B98DC11E988AB3000CC0B1 /* JWLBezierPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWLBezierPath.h; sourceTree = "<group>"; };
@@ -87,9 +81,7 @@
 		5275B0C61D36542D005C918A = {
 			isa = PBXGroup;
 			children = (
-				5275B0D11D36542D005C918A /* 画板test */,
-				5275B0EB1D36542D005C918A /* 画板testTests */,
-				5275B0F61D36542D005C918A /* 画板testUITests */,
+				5275B0D11D36542D005C918A /* JWLDrawingBoard */,
 				5275B0D01D36542D005C918A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -97,14 +89,14 @@
 		5275B0D01D36542D005C918A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5275B0CF1D36542D005C918A /* 画板test.app */,
-				5275B0E81D36542D005C918A /* 画板testTests.xctest */,
-				5275B0F31D36542D005C918A /* 画板testUITests.xctest */,
+				5275B0CF1D36542D005C918A /* JWLDrawingBoard.app */,
+				5275B0E81D36542D005C918A /* JWLDrawingBoardTests.xctest */,
+				5275B0F31D36542D005C918A /* JWLDrawingBoardUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5275B0D11D36542D005C918A /* 画板test */ = {
+		5275B0D11D36542D005C918A /* JWLDrawingBoard */ = {
 			isa = PBXGroup;
 			children = (
 				5275B0D51D36542D005C918A /* AppDelegate.h */,
@@ -117,6 +109,7 @@
 				5275B0E31D36542D005C918A /* Info.plist */,
 				5275B0D21D36542D005C918A /* Supporting Files */,
 			);
+			name = JWLDrawingBoard;
 			path = "画板test";
 			sourceTree = "<group>";
 		};
@@ -132,30 +125,12 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		5275B0EB1D36542D005C918A /* 画板testTests */ = {
-			isa = PBXGroup;
-			children = (
-				5275B0EC1D36542D005C918A /* __testTests.m */,
-				5275B0EE1D36542D005C918A /* Info.plist */,
-			);
-			path = "画板testTests";
-			sourceTree = "<group>";
-		};
-		5275B0F61D36542D005C918A /* 画板testUITests */ = {
-			isa = PBXGroup;
-			children = (
-				5275B0F71D36542D005C918A /* __testUITests.m */,
-				5275B0F91D36542D005C918A /* Info.plist */,
-			);
-			path = "画板testUITests";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5275B0CE1D36542D005C918A /* 画板test */ = {
+		5275B0CE1D36542D005C918A /* JWLDrawingBoard */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5275B0FC1D36542D005C918A /* Build configuration list for PBXNativeTarget "画板test" */;
+			buildConfigurationList = 5275B0FC1D36542D005C918A /* Build configuration list for PBXNativeTarget "JWLDrawingBoard" */;
 			buildPhases = (
 				5275B0CB1D36542D005C918A /* Sources */,
 				5275B0CC1D36542D005C918A /* Frameworks */,
@@ -165,14 +140,14 @@
 			);
 			dependencies = (
 			);
-			name = "画板test";
+			name = JWLDrawingBoard;
 			productName = "画板test";
-			productReference = 5275B0CF1D36542D005C918A /* 画板test.app */;
+			productReference = 5275B0CF1D36542D005C918A /* JWLDrawingBoard.app */;
 			productType = "com.apple.product-type.application";
 		};
-		5275B0E71D36542D005C918A /* 画板testTests */ = {
+		5275B0E71D36542D005C918A /* JWLDrawingBoardTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5275B0FF1D36542D005C918A /* Build configuration list for PBXNativeTarget "画板testTests" */;
+			buildConfigurationList = 5275B0FF1D36542D005C918A /* Build configuration list for PBXNativeTarget "JWLDrawingBoardTests" */;
 			buildPhases = (
 				5275B0E41D36542D005C918A /* Sources */,
 				5275B0E51D36542D005C918A /* Frameworks */,
@@ -183,14 +158,14 @@
 			dependencies = (
 				5275B0EA1D36542D005C918A /* PBXTargetDependency */,
 			);
-			name = "画板testTests";
+			name = JWLDrawingBoardTests;
 			productName = "画板testTests";
-			productReference = 5275B0E81D36542D005C918A /* 画板testTests.xctest */;
+			productReference = 5275B0E81D36542D005C918A /* JWLDrawingBoardTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		5275B0F21D36542D005C918A /* 画板testUITests */ = {
+		5275B0F21D36542D005C918A /* JWLDrawingBoardUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5275B1021D36542D005C918A /* Build configuration list for PBXNativeTarget "画板testUITests" */;
+			buildConfigurationList = 5275B1021D36542D005C918A /* Build configuration list for PBXNativeTarget "JWLDrawingBoardUITests" */;
 			buildPhases = (
 				5275B0EF1D36542D005C918A /* Sources */,
 				5275B0F01D36542D005C918A /* Frameworks */,
@@ -201,9 +176,9 @@
 			dependencies = (
 				5275B0F51D36542D005C918A /* PBXTargetDependency */,
 			);
-			name = "画板testUITests";
+			name = JWLDrawingBoardUITests;
 			productName = "画板testUITests";
-			productReference = 5275B0F31D36542D005C918A /* 画板testUITests.xctest */;
+			productReference = 5275B0F31D36542D005C918A /* JWLDrawingBoardUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -228,7 +203,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5275B0CA1D36542D005C918A /* Build configuration list for PBXProject "画板test" */;
+			buildConfigurationList = 5275B0CA1D36542D005C918A /* Build configuration list for PBXProject "JWLDrawingBoard" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -241,9 +216,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5275B0CE1D36542D005C918A /* 画板test */,
-				5275B0E71D36542D005C918A /* 画板testTests */,
-				5275B0F21D36542D005C918A /* 画板testUITests */,
+				5275B0CE1D36542D005C918A /* JWLDrawingBoard */,
+				5275B0E71D36542D005C918A /* JWLDrawingBoardTests */,
+				5275B0F21D36542D005C918A /* JWLDrawingBoardUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -292,7 +267,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5275B0ED1D36542D005C918A /* __testTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,7 +274,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5275B0F81D36542D005C918A /* __testUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,12 +282,12 @@
 /* Begin PBXTargetDependency section */
 		5275B0EA1D36542D005C918A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5275B0CE1D36542D005C918A /* 画板test */;
+			target = 5275B0CE1D36542D005C918A /* JWLDrawingBoard */;
 			targetProxy = 5275B0E91D36542D005C918A /* PBXContainerItemProxy */;
 		};
 		5275B0F51D36542D005C918A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5275B0CE1D36542D005C918A /* 画板test */;
+			target = 5275B0CE1D36542D005C918A /* JWLDrawingBoard */;
 			targetProxy = 5275B0F41D36542D005C918A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -453,7 +426,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-66.--testTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/画板test.app/画板test";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JWLDrawingBoard.app/JWLDrawingBoard";
 			};
 			name = Debug;
 		};
@@ -465,7 +438,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-66.--testTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/画板test.app/画板test";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JWLDrawingBoard.app/JWLDrawingBoard";
 			};
 			name = Release;
 		};
@@ -494,7 +467,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5275B0CA1D36542D005C918A /* Build configuration list for PBXProject "画板test" */ = {
+		5275B0CA1D36542D005C918A /* Build configuration list for PBXProject "JWLDrawingBoard" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5275B0FA1D36542D005C918A /* Debug */,
@@ -503,7 +476,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5275B0FC1D36542D005C918A /* Build configuration list for PBXNativeTarget "画板test" */ = {
+		5275B0FC1D36542D005C918A /* Build configuration list for PBXNativeTarget "JWLDrawingBoard" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5275B0FD1D36542D005C918A /* Debug */,
@@ -512,7 +485,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5275B0FF1D36542D005C918A /* Build configuration list for PBXNativeTarget "画板testTests" */ = {
+		5275B0FF1D36542D005C918A /* Build configuration list for PBXNativeTarget "JWLDrawingBoardTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5275B1001D36542D005C918A /* Debug */,
@@ -521,7 +494,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5275B1021D36542D005C918A /* Build configuration list for PBXNativeTarget "画板testUITests" */ = {
+		5275B1021D36542D005C918A /* Build configuration list for PBXNativeTarget "JWLDrawingBoardUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5275B1031D36542D005C918A /* Debug */,
