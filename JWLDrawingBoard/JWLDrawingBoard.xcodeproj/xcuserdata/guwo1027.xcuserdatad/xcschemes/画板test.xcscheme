@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "5275B0CE1D36542D005C918A"
-               BuildableName = "&#x753b;&#x677f;test.app"
-               BlueprintName = "&#x753b;&#x677f;test"
-               ReferencedContainer = "container:&#x753b;&#x677f;test.xcodeproj">
+               BuildableName = "JWLDrawingBoard.app"
+               BlueprintName = "JWLDrawingBoard"
+               ReferencedContainer = "container:JWLDrawingBoard.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "5275B0E71D36542D005C918A"
-               BuildableName = "&#x753b;&#x677f;testTests.xctest"
-               BlueprintName = "&#x753b;&#x677f;testTests"
-               ReferencedContainer = "container:&#x753b;&#x677f;test.xcodeproj">
+               BuildableName = "JWLDrawingBoardTests.xctest"
+               BlueprintName = "JWLDrawingBoardTests"
+               ReferencedContainer = "container:JWLDrawingBoard.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "5275B0F21D36542D005C918A"
-               BuildableName = "&#x753b;&#x677f;testUITests.xctest"
-               BlueprintName = "&#x753b;&#x677f;testUITests"
-               ReferencedContainer = "container:&#x753b;&#x677f;test.xcodeproj">
+               BuildableName = "JWLDrawingBoardUITests.xctest"
+               BlueprintName = "JWLDrawingBoardUITests"
+               ReferencedContainer = "container:JWLDrawingBoard.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "5275B0CE1D36542D005C918A"
-            BuildableName = "&#x753b;&#x677f;test.app"
-            BlueprintName = "&#x753b;&#x677f;test"
-            ReferencedContainer = "container:&#x753b;&#x677f;test.xcodeproj">
+            BuildableName = "JWLDrawingBoard.app"
+            BlueprintName = "JWLDrawingBoard"
+            ReferencedContainer = "container:JWLDrawingBoard.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "5275B0CE1D36542D005C918A"
-            BuildableName = "&#x753b;&#x677f;test.app"
-            BlueprintName = "&#x753b;&#x677f;test"
-            ReferencedContainer = "container:&#x753b;&#x677f;test.xcodeproj">
+            BuildableName = "JWLDrawingBoard.app"
+            BlueprintName = "JWLDrawingBoard"
+            ReferencedContainer = "container:JWLDrawingBoard.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "5275B0CE1D36542D005C918A"
-            BuildableName = "&#x753b;&#x677f;test.app"
-            BlueprintName = "&#x753b;&#x677f;test"
-            ReferencedContainer = "container:&#x753b;&#x677f;test.xcodeproj">
+            BuildableName = "JWLDrawingBoard.app"
+            BlueprintName = "JWLDrawingBoard"
+            ReferencedContainer = "container:JWLDrawingBoard.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
